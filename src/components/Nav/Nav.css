@@ -1,0 +1,8 @@
+.nav {
+    display: flex;
+    color: white;
+    overflow-x: scroll;
+    padding: 10px;
+    padding-left: 40px;
+}
+

@@ -1,0 +1,30 @@
+.app {
+    width: 100vw;
+    background-image: linear-gradient(to right, #051421, #042727);;
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opers */
+.nav::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for Ie, Edge and firefox */
+.nav {
+    -ms-overflow-style: none; /* Ie and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.nav > h2 {
+    cursor: pointer;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: 500;
+    opacity: 0.7;
+    transition: transfrom 50ms ease-out;
+}
+
+.nav > h2:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
